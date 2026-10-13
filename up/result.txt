@@ -1,0 +1,1 @@
+<?xml version='1.0' encoding='UTF-8'?><PostResponse><Location>https://storage.googleapis.com/shopify-staged-uploads/tmp/101231067463/bulk/050d734e-00c0-4d15-a855-7292c68c68ca/det.jsonl</Location><Bucket>shopify-staged-uploads</Bucket><Key>tmp/101231067463/bulk/050d734e-00c0-4d15-a855-7292c68c68ca/det.jsonl</Key><ETag>"7b8c21c83f96358072d0e25779f567b9"</ETag></PostResponse>
