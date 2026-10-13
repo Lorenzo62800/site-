@@ -1,0 +1,17 @@
+name: fetch-full
+on:
+  push:
+    branches: [shop-images]
+    paths: [full.txt]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p full
+          while read id url; do [ -n "$id" ] && curl -sSL --fail "$url" -o "full/$id.jpg" || echo "fail $id"; done < full.txt
+          git config user.name bot; git config user.email bot@users.noreply.github.com
+          git add full && git commit -m "full images" && git push
