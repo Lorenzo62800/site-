@@ -1,0 +1,1 @@
+import{n as e,t}from"./createServerFn-1WoW48TW.js";var n=t({method:`POST`}).handler(e(`eb39b83d15ce8b016227fad54ca3037d9bab87e3ad7392c1744564be2f7051d0`)),r=t({method:`POST`}).handler(e(`51247a0dbccffebb42f24ae19a0f421d7a7f362895b051b1ae1e3602a7d8390e`));export{r as n,n as t};
