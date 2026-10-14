@@ -1,2 +1,3 @@
-curl -sSL 'https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/a23f292dbba99e41fff92d7693f9?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1792622452&Signature=bOynEH73nwlNppAAvl9Fe04ejXLZ6YfgwkZ2zk5yFu8Y5OxAILZqo1Mi6d8AYW1Y7jmLsDb%2FCSgHGt5liFr7hzfRZrFNf3plu4XWyLfzykM4I%2B43lapYX1bauMsvCk2npC1aA413lnsy%2Fqe0HqtdcgNsZg7TgoTAnkrzADcxWuxmsAP80aKp6T%2BL1XUBTbT8iQLAc322ESXY9AhUjlCTVlBbMj9ihG8tM%2FuBVdYGvsq2zuUujO3UTbjPrV%2B4ra0UndYWlUtrZ8%2BWMHCWhnRjn6D69q6M4WhYKwEN3UMAFqA42L7cPA3%2FQazL1jStsnlfhN5InBaYyqjGrrz1iS%2BSUA%3D%3D&response-content-disposition=attachment%3B+filename%3D%22staging-bulk-10691954344263.jsonl%22%3B+filename%2A%3DUTF-8%27%27staging-bulk-10691954344263.jsonl&response-content-type=application%2Fjsonl' -o up/desc.jsonl
-# 1
+npm i -s playwright@1.47.2 >/dev/null 2>&1 && npx playwright install --with-deps chromium >/dev/null 2>&1
+node up/verify.js > up/verify.log 2>&1
+# 2
