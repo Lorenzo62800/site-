@@ -1,0 +1,8 @@
+HTTP/2 403 
+HTTP/2 301 
+location: https://www.snapchat.com:443/t/BrcFgVXa
+HTTP/2 303 
+location: https://www.snapchat.com/add/ghostshopi?invite_id=fpV4ZMED&locale=fr_FR&share_id=4M_R3Zp8StC69xQcpq4HEg&sid=9daf2a10b0db434680686f055a508a47
+HTTP/2 308 
+location: /@ghostshopi?invite_id=fpV4ZMED&locale=fr_FR&share_id=4M_R3Zp8StC69xQcpq4HEg&sid=9daf2a10b0db434680686f055a508a47
+HTTP/2 200 
