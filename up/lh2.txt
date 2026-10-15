@@ -1,0 +1,6 @@
+mobile / performance:80 accessibility:96 best-practices:96 seo:100 LCP 2.7 s poids Total size was 1,518 KiB | img-resp Potential savings of 443 KiB
+desktop / performance:88 accessibility:96 best-practices:96 seo:100 LCP 1.7 s poids Total size was 1,758 KiB | img-resp Potential savings of 633 KiB
+mobile /boutique?categorie=alimentation performance:65 accessibility:100 best-practices:96 seo:100 LCP 3.3 s poids Total size was 1,275 KiB | img-resp Potential savings of 39 KiB
+desktop /boutique?categorie=alimentation performance:99 accessibility:100 best-practices:96 seo:100 LCP 0.8 s poids Total size was 1,359 KiB | img-resp Potential savings of 121 KiB
+mobile /produit/epice-dor-anis-entier-1 performance:74 accessibility:100 best-practices:96 seo:100 LCP 3.5 s poids Total size was 1,117 KiB | img-resp Potential savings of 36 KiB
+desktop /produit/epice-dor-anis-entier-1 performance:100 accessibility:100 best-practices:96 seo:100 LCP 0.6 s poids Total size was 1,140 KiB | img-resp Potential savings of 43 KiB
