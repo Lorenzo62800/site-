@@ -9,7 +9,7 @@ const B='https://ghostshopi.lovable.app';
  out[key].social=await p.evaluate(()=>[...document.querySelectorAll('a[href*="instagram.com"],a[href*="tiktok.com"],a[href*="snapchat.com"]')].map(a=>a.href+'|'+a.target+'|'+a.getAttribute('aria-label')));
  out[key].sameAs=await p.evaluate(()=>[...document.querySelectorAll('script[type="application/ld+json"]')].map(s=>s.textContent).filter(t=>t.includes('sameAs')).map(t=>t.slice(0,400)));
  await p.screenshot({path:`up/home_${key}.png`});
- const btn=p.getByRole('button',{name:/question/i}).first(); await btn.click(); await p.waitForTimeout(1500);
+ const btn=p.locator('button:has-text("question"), [aria-label*="ssistant"], [aria-label*="chat" i]').first(); out[key].btnInfo=await p.evaluate(()=>[...document.querySelectorAll('button')].filter(b=>/question/i.test(b.innerText)).map(b=>b.outerHTML.slice(0,200))); await btn.click(); await p.waitForTimeout(1500);
  await p.screenshot({path:`up/chat_open_${key}.png`});
  const qs = key===1300 ? ["Je cherche des épices pour un tajine","Quels sont vos délais et frais de livraison ?","Vous avez du caviar de licorne ?","Qui a gagné la Coupe du monde 1998 ?","Quels sont vos réseaux sociaux ?"] : ["Je cherche du riz basmati"];
  out[key].answers=[];
