@@ -14,9 +14,9 @@ const B='https://ghostshopi.lovable.app';
  const qs = key===1300 ? ["Je cherche des épices pour un tajine","Quels sont vos délais et frais de livraison ?","Vous avez du caviar de licorne ?","Qui a gagné la Coupe du monde 1998 ?","Quels sont vos réseaux sociaux ?"] : ["Je cherche du riz basmati"];
  out[key].answers=[];
  for (const q of qs){
-   const inp=p.locator('textarea:visible, input:visible').filter({hasNot:p.locator('[type=email]')}).and(p.locator(':not([placeholder*="Rechercher"]):not([type=email]):not([placeholder*="mail"])')).last(); await inp.fill(q); await inp.press('Enter');
-   await p.waitForTimeout(14000);
-   const dlg=await p.evaluate(()=>{const ta=[...document.querySelectorAll('textarea,input')].find(e=>e.offsetParent&&!/mail|Rechercher/i.test(e.placeholder||'')); let d=ta; for(let i=0;i<8&&d&&d.parentElement;i++){d=d.parentElement; if(d.getBoundingClientRect().height>300) break;} d=d||document.body; return {t:d.innerText.slice(-1500), cards:d.querySelectorAll('a[href^="/produit/"]').length};});
+   const inp=p.locator('textarea').last(); await inp.fill(q); await inp.press('Enter');
+   await p.waitForTimeout(16000); await p.screenshot({path:`up/q${out[key].answers.length}_${key}.png`});
+   const dlg=await p.evaluate(()=>{let d=[...document.querySelectorAll('textarea')].pop(); while(d&&d.parentElement&&getComputedStyle(d).position!=='fixed') d=d.parentElement; d=d||document.body; return {t:d.innerText.slice(-1500), cards:d.querySelectorAll('a[href^="/produit/"]').length};});
    out[key].answers.push({q,...dlg});
  }
  await p.screenshot({path:`up/chat_${key}.png`});
