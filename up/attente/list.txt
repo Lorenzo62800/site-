@@ -1,0 +1,24 @@
+001_lot.jpg:  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1152x2048, components 3
+001_site.jpg: PNG image data, 1536 x 2752, 8-bit/color RGB, non-interlaced
+002_lot.jpg:  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1152x2048, components 3
+002_site.jpg: PNG image data, 1536 x 2752, 8-bit/color RGB, non-interlaced
+003_lot.jpg:  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1152x2048, components 3
+003_site.jpg: PNG image data, 1536 x 2752, 8-bit/color RGB, non-interlaced
+004_lot.jpg:  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1152x2048, components 3
+004_site.jpg: PNG image data, 1536 x 2752, 8-bit/color RGB, non-interlaced
+005_lot.jpg:  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1152x2048, components 3
+005_site.jpg: PNG image data, 1536 x 2752, 8-bit/color RGB, non-interlaced
+006_lot.jpg:  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1152x2048, components 3
+006_site.jpg: PNG image data, 1536 x 2752, 8-bit/color RGB, non-interlaced
+007_lot.jpg:  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1152x2048, components 3
+007_site.jpg: PNG image data, 1536 x 2752, 8-bit/color RGB, non-interlaced
+008_lot.jpg:  JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, progressive, precision 8, 1152x2048, components 3
+008_site.jpg: PNG image data, 1536 x 2752, 8-bit/color RGB, non-interlaced
+009_lot.jpg:  RIFF (little-endian) data, Web/P image, VP8 encoding, 1024x1024, Scaling: [none]x[none], YUV color, decoders should clamp
+009_site.jpg: PNG image data, 1024 x 1024, 8-bit/color RGB, non-interlaced
+021_lot.jpg:  JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=6, orientation=upper-left, xresolution=86, yresolution=94, resolutionunit=2, hostcomputer=imagery4], progressive, precision 8, 600x800, components 3
+021_site.jpg: PNG image data, 896 x 1200, 8-bit/color RGB, non-interlaced
+074_lot.jpg:  JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=6, orientation=upper-left, xresolution=86, yresolution=94, resolutionunit=2, hostcomputer=imagery4], progressive, precision 8, 600x1303, components 3
+074_site.jpg: PNG image data, 768 x 1376, 8-bit/color RGB, non-interlaced
+083_lot.jpg:  JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=6, orientation=upper-left, xresolution=86, yresolution=94, resolutionunit=2, hostcomputer=imagery4], progressive, precision 8, 600x800, components 3
+083_site.jpg: PNG image data, 896 x 1200, 8-bit/color RGB, non-interlaced
